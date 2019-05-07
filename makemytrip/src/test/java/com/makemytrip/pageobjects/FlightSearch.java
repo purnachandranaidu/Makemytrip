@@ -26,8 +26,8 @@ public class FlightSearch {
 	@FindBy(xpath="//LABEL[@for='departure']")WebElement Depature;
 	/*@FindBy(xpath="//LABEL[@for='return']")WebElement Aravile;*/
 	
-	@FindBy(xpath="(//P[text()='27'][text()='27'])[1]")WebElement Startdate;
-	@FindBy(xpath="(//P[text()='3'][text()='3'])[3]")WebElement Returndate;
+	@FindBy(xpath="(//P[text()='7'][text()='7'])[1]")WebElement Startdate;
+	@FindBy(xpath="(//P[text()='14'][text()='14'])[1]")WebElement Returndate;
 	@FindBy(xpath="//A[@class='primaryBtn font24 latoBlack widgetSearchBtn '][text()='Search']")WebElement searchbtn;
 	
 	public void Flightlink()

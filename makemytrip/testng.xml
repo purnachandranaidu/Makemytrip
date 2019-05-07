@@ -9,6 +9,10 @@
         <classes>
       	<class name="com.makemytrip.testcases.TC_Homepage_001"></class>
       	<class name="com.makemytrip.testcases.TC_Flights_002"></class>
+      	<class name="com.makemytrip.testcases.TC_FlightStops_003"></class>
+      	<class name="com.makemytrip.testcases.TC_Flights_Radio_004"></class>
+      	
+      	
         </classes>
     </test>
 </suite>
