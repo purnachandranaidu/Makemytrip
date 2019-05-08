@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="FlightReservationapplication" duration-ms="88939" started-at="2019-05-06T17:19:07Z" finished-at="2019-05-06T17:20:36Z">
+  <suite name="FlightReservationapplication" duration-ms="47544" started-at="2019-05-07T02:14:39Z" finished-at="2019-05-07T02:15:27Z">
     <groups>
     </groups>
-    <test name="FlightReservation test" duration-ms="88939" started-at="2019-05-06T17:19:07Z" finished-at="2019-05-06T17:20:36Z">
+    <test name="FlightReservation test" duration-ms="47544" started-at="2019-05-07T02:14:39Z" finished-at="2019-05-07T02:15:27Z">
       <class name="com.makemytrip.testcases.TC_Flights_002">
-        <test-method status="PASS" signature="flights()[pri:2, instance:com.makemytrip.testcases.TC_Flights_002@6500df86]" name="flights" duration-ms="1931" started-at="2019-05-06T22:50:31Z" finished-at="2019-05-06T22:50:33Z">
+        <test-method status="PASS" signature="flights()[pri:2, instance:com.makemytrip.testcases.TC_Flights_002@6500df86]" name="flights" duration-ms="1741" started-at="2019-05-07T07:45:25Z" finished-at="2019-05-07T07:45:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flights -->
       </class> <!-- com.makemytrip.testcases.TC_Flights_002 -->
       <class name="com.makemytrip.testcases.TC_Flights_Radio_004">
-        <test-method status="PASS" signature="Radio()[pri:4, instance:com.makemytrip.testcases.TC_Flights_Radio_004@59ec2012]" name="Radio" duration-ms="30" started-at="2019-05-06T22:50:36Z" finished-at="2019-05-06T22:50:36Z">
+        <test-method status="PASS" signature="Radio()[pri:4, instance:com.makemytrip.testcases.TC_Flights_Radio_004@59ec2012]" name="Radio" duration-ms="10" started-at="2019-05-07T07:45:27Z" finished-at="2019-05-07T07:45:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Radio -->
       </class> <!-- com.makemytrip.testcases.TC_Flights_Radio_004 -->
       <class name="com.makemytrip.testcases.TC_Homepage_001">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.makemytrip.testcases.TC_Homepage_001@42dafa95]" name="SetUp" is-config="true" duration-ms="40095" started-at="2019-05-06T22:48:27Z" finished-at="2019-05-06T22:49:07Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.makemytrip.testcases.TC_Homepage_001@42dafa95]" name="SetUp" is-config="true" duration-ms="13467" started-at="2019-05-07T07:44:26Z" finished-at="2019-05-07T07:44:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="Flightbooking()[pri:1, instance:com.makemytrip.testcases.TC_Homepage_001@42dafa95]" name="Flightbooking" duration-ms="83454" started-at="2019-05-06T22:49:07Z" finished-at="2019-05-06T22:50:31Z">
+        <test-method status="PASS" signature="Flightbooking()[pri:1, instance:com.makemytrip.testcases.TC_Homepage_001@42dafa95]" name="Flightbooking" duration-ms="45754" started-at="2019-05-07T07:44:39Z" finished-at="2019-05-07T07:45:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Flightbooking -->
       </class> <!-- com.makemytrip.testcases.TC_Homepage_001 -->
       <class name="com.makemytrip.testcases.TC_FlightStops_003">
-        <test-method status="PASS" signature="Flight_Stops()[pri:3, instance:com.makemytrip.testcases.TC_FlightStops_003@402a079c]" name="Flight_Stops" duration-ms="3494" started-at="2019-05-06T22:50:33Z" finished-at="2019-05-06T22:50:36Z">
+        <test-method status="PASS" signature="Flight_Stops()[pri:3, instance:com.makemytrip.testcases.TC_FlightStops_003@402a079c]" name="Flight_Stops" duration-ms="14" started-at="2019-05-07T07:45:27Z" finished-at="2019-05-07T07:45:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Flight_Stops -->

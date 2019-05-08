@@ -19,6 +19,7 @@ public class FlightSearch {
 	}
 
 	@FindBy(xpath=".//*[@id='SW']/div[1]/div[2]/div/nav/ul/li[1]/a")WebElement flgtlink;
+	@FindBy(xpath="//div[@class='container']/a")WebElement Closebtn;
 	@FindBy(xpath=".//*[@id='root']/div/div[2]/div/div[1]/ul/li[2]/span")WebElement roundtrip;
 	@FindBy(xpath="(//INPUT[@type='text'])[1]")WebElement Fromcity;
 	 
@@ -30,18 +31,24 @@ public class FlightSearch {
 	@FindBy(xpath="(//P[text()='14'][text()='14'])[1]")WebElement Returndate;
 	@FindBy(xpath="//A[@class='primaryBtn font24 latoBlack widgetSearchBtn '][text()='Search']")WebElement searchbtn;
 	
-	public void Flightlink()
+	public void Flightlink() 
 	{
 		flgtlink.click();
+		//Hello
+		
 	}
 	
-	public void trip()
+	public void trip()throws InterruptedException
 	{
 		roundtrip.click();
+		ldriver.navigate().refresh();
+		
 	}
 	
-	public void fcity()
+	public void fcity() 
 	{
+		
+		
 		Fromcity.sendKeys("Delhi");
 		
 	}
