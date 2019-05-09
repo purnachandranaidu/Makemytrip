@@ -5,7 +5,7 @@
         <listener class-name="com.inetbanking.utilities.Reporting"></listener>   	
     </listeners> -->
     <test name="FlightReservation test">
-        <parameter name="browser" value="firefox"> </parameter>
+        <parameter name="browser" value="chrome"> </parameter>
         <classes>
       	<class name="com.makemytrip.testcases.TC_Homepage_001"></class>
       	<class name="com.makemytrip.testcases.TC_Flights_002"></class>

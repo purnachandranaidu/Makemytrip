@@ -31,17 +31,20 @@ public class FlightSearch {
 	@FindBy(xpath="(//P[text()='14'][text()='14'])[1]")WebElement Returndate;
 	@FindBy(xpath="//A[@class='primaryBtn font24 latoBlack widgetSearchBtn '][text()='Search']")WebElement searchbtn;
 	
-	public void Flightlink() 
+	public void Flightlink() throws InterruptedException 
 	{
 		flgtlink.click();
-		//Hello
+		Thread.sleep(10000);
 		
 	}
 	
 	public void trip()throws InterruptedException
 	{
+		
+		/*Closebtn.click();
+		Thread.sleep(10000);*/
 		roundtrip.click();
-		ldriver.navigate().refresh();
+		
 		
 	}
 	

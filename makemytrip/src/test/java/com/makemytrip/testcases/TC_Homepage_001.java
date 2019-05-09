@@ -17,8 +17,9 @@ public class TC_Homepage_001 extends BaseClass {
 		try {
 
 			FlightSearch search=new FlightSearch(driver);
+			Thread.sleep(10000);
 			search.Flightlink();
-			Thread.sleep(1000);
+			Thread.sleep(10000);
 			search.trip();
 			Thread.sleep(1000);
 			search.fcity();
